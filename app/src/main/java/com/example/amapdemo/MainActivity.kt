@@ -3,7 +3,6 @@ package com.example.amapdemo
 import android.Manifest
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import pub.devrel.easypermissions.EasyPermissions
@@ -34,7 +33,11 @@ class MainActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
                     Manifest.permission.READ_PHONE_STATE)
         }
         btnBasicMap.setOnClickListener {
-            BasicMapActivity.launch(this)
+            BasicMapActivity.launch(this@MainActivity)
+        }
+
+        btnBasicLocation.setOnClickListener {
+            BasicLocationActivity.launch(this@MainActivity)
         }
     }
 

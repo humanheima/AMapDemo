@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AMapDemo</string>
     <string name="basic_string">基础地图</string>
+    <string name="basic_location">显示定位蓝点并移动到地图中心</string>
 </resources>

@@ -1,6 +1,6 @@
 package com.example.amapdemo;
 
-import com.amap.api.maps2d.model.LatLng;
+import com.amap.api.maps.model.LatLng;
 
 public class Constant {
 

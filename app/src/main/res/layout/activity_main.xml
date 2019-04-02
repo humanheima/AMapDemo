@@ -12,4 +12,10 @@
         android:layout_height="40dp"
         android:text="@string/basic_string" />
 
+    <Button
+        android:id="@+id/btnBasicLocation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/basic_location" />
+
 </LinearLayout>
